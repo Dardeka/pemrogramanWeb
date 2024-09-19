@@ -1,0 +1,166 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.headline{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    /* background-color: beige; */
+    /* font-size: 87%; */
+}
+
+.author{
+    text-align: center;
+    font-size: small;
+    /* opacity: 50%; */
+}
+
+figure{
+    width: 100vh;
+    display: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption{
+    align-self: flex-start;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.content-1{
+    /* background-color: blanchedalmond; */
+    width: 100vh;
+    display: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-2{
+    width: 100vh;
+    display: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-3{
+    width: 100vh;
+    display: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 15px;
+}
+
+.news-content{
+    width: 100vh;
+    display: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-left-style: solid;
+    border-color: #2c5498;
+}
+
+.news-content b{
+    padding-left: 15px;
+}
+
+.news-content a{
+    padding-left: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007cbd;
+}
+
+.news-content a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkblue;
+    transition: color 0.3s ease-out
+}
+
+.tag-container{
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-bottom: 55px;
+    border-bottom: 2.5px solid rgba(173, 216, 230, .5);
+}
+
+.tag-container a{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    /* margin-left: 5px; */
+    margin-right: 5px;
+    padding: 7px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.tag-container a:hover{
+    cursor: pointer;
+    color: #00496f;
+    transition: color 0.3s ease-out;
+}
+
+.another-news{
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    border-bottom: 2.5px solid rgba(173, 216, 230,.5);
+}
+
+.another-news b{
+    color: #016faa;
+    font-size: 18px;
+}
+
+ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: none;
+    padding: 0; /* Supaya listnya kekanan (default => padding: 70px)*/
+    column-gap: 5%;
+    margin-top: 28px;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    /* background-color: lightgreen; */
+    border-bottom: 1px solid rgba(0, 0, 0,.1);
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 12.5px;
+}
+
+li a:hover{
+    color: #007cbd;
+    transition: color 0.3s ease-out;
+}
